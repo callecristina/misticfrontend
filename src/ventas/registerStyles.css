@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  /** @jsx React.DOM */
+  .form-venta {
+    width: 100%;
+    height:100%;
+    background: #04c9fa;
+    margin: auto;
+    box-shadow: 7px 13px 37px #000;
+    padding: 10px 30px;
+    border:none;
+    margin-top:10px
+   }
+
+   
+   .form-venta th {
+    text-align: center;
+   
+  } 
+  .datos-venta{
+    width: 100%;
+    height: 100%;
+    position:center;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .datos-empresa{
+    width: 50%;
+    height: 100%;
+    /*background-color: #00ff00;*/
+
+  }
+  .datos-cliente{
+    width: 50%;
+    height: 100%;
+    /*background-color: #f0000f;*/
+
+  }
+   
